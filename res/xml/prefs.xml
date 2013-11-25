@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:key='"Quelle"'
+        android:summary="@string/feedsourceSummary"
+        android:title="@string/feedsource" 
+        android:entries="@array/rssSourceNames"
+        android:entryValues="@array/rssSourceURLs"
+        android:defaultValue="@string/rssDefault"/>
+
+</PreferenceScreen>

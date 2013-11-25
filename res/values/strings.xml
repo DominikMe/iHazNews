@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, FAZfeederActivity!</string>
+    <string name="app_name">iHazNews</string>
+    <string name="feedsource">RSS feed</string>
+    <string name="feedsourceSummary">Please select the RSS feed you like to read.</string>
+    <string name="rssDefault">http://www.dradio.de/rss/nachrichten/</string>
+    <string name="titlePrefs">Preferences</string>
+    <string-array name="rssSourceNames">
+        <item>dradio</item>
+        <item>FAZ</item>
+    </string-array>
+    <string-array name="rssSourceURLs">
+        <item>http://www.dradio.de/rss/nachrichten/</item>
+        <item>http://www.faz.net/aktuell/?rssview=1</item>
+    </string-array>
+
+</resources>
